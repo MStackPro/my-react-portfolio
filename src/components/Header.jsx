@@ -17,8 +17,8 @@ const Header = () => {
         <article className="flex flex-col gap-2 pt-16">
           <h5>Hello! I'm</h5>
           <div className="name">
-          <h2 className="text-5xl">Manasseh</h2>
-          <h1 className="text-7xl font-semibold">Walshak</h1>
+          <h2 className="text-3xl">Manasseh</h2>
+          <h1 className="text-6xl font-semibold">Walshak</h1>
           </div>
           <p className="w-3/4 my-desc">
             <TypeWriter
@@ -26,13 +26,13 @@ const Header = () => {
               text={
                 "A passionate skilled Frontend Developer and Creative Graphic Designer."
               }
-              interval={30}
+              interval={50}
               delay={20}
             />
           </p>
-          <Link to={"#contact"} className="btn btn-primary mt-4">
+          <a href="#contact" className="btn btn-primary mt-4">
             Get in touch
-          </Link>
+          </a>
 
           <div className="social-link pt-4 flex items-center gap-6">
             <Link

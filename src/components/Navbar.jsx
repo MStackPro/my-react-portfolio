@@ -4,9 +4,8 @@ import { Link } from "react-router-dom";
 import { RiMenuFill } from "react-icons/ri";
 import { IoMdClose } from "react-icons/io";
 import { MdOutlineFileDownload } from "react-icons/md";
-import Logo from '/src/assets/logo.jpg'
+// import Logo from "/src/assets/logo.jpg";
 import resume from "./../assets/CV.pdf";
-
 
 const Navbar = () => {
   const [navShowing, setNavShowing] = useState(false);
@@ -16,7 +15,7 @@ const Navbar = () => {
         {/* ==== NAV LOGO ==== */}
         <div className="overflow-hidden rounded-full">
           <Link to={"/"}>
-            <img src={Logo} alt="logo" className="w-12"/>
+            {/* <img src={Logo} alt="logo" className="w-12" /> */}
           </Link>
         </div>
 
@@ -31,7 +30,7 @@ const Navbar = () => {
               <li key={item.id}>
                 <a
                   href={item.link}
-                  className="nav-link text-ColorPrimary font-semibold hover:text-white transition-all duration-500 ease-in-out"
+                  className="nav-link text-ColorPrimary hover:text-white transition-all duration-500 ease-in-out"
                 >
                   {item.name}
                 </a>
@@ -41,12 +40,17 @@ const Navbar = () => {
 
           <a
             href={resume}
-            className="btn btn-primary hover:bg-black download-btn" download='resume' >Download CV<MdOutlineFileDownload className="text-2xl" /></a>
+            className="btn btn-primary hover:bg-black download-btn"
+            download="resume"
+          >
+            Download CV
+            <MdOutlineFileDownload className="text-2xl" />
+          </a>
         </div>
 
         {/* ====== HAMBURGER MENU ======= */}
         <button
-          className="hamburger text-4xl transition-all duration-500 ease-in-out border border-solid border-Color-gray-100 p-1 rounded-lg hidden"
+          className="hamburger text-3xl font-light transition-all duration-500 ease-in-out hidden"
           onClick={() => setNavShowing(!navShowing)}
         >
           {navShowing ? <IoMdClose /> : <RiMenuFill />}

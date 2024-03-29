@@ -6,6 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { Zoom } from "react-reveal";
+import { TypeWriter } from "react-typewritter";
 
 const Contact = () => {
   return (
@@ -14,10 +15,8 @@ const Contact = () => {
         <section className="grid grid-cols-2 gap-32 container contact-container">
           <article className="flex flex-col items-center">
             <h2>Let's Talk</h2>
-            <p>
-              Have a question or want to hire me? I'm here to help. Feel free to
-              reach out via social media handles or directly via email. Thank
-              you!
+            <p className="text-center">
+              <TypeWriter elementType="text" text="Have a question or want to hire me? I'm here to help. Feel free to reach out via social media handles or directly via email. Thank you!"/>
             </p>
 
             <div className="pt-4 flex items-center gap-6 mt-4">

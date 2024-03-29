@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/home/Home";
 import Navbar from "./components/Navbar";
-import Home from "./home/Home";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
-import FullPortfolio from "./fullPortfolio/FullPortfolio";
-import ScrollUp from "./components/ScrollUp";
+import Scrollup from "./components/ScrollUp";
+import FullPortfolio from "./pages/fullPortfolio/FullPortfolio";
 
 
 const App = () => {
@@ -19,7 +19,7 @@ const App = () => {
       </Routes>
       <Contact/>
       <Footer/>
-      <ScrollUp/>
+      <Scrollup/>
     </BrowserRouter>
     </>
   );

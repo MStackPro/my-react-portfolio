@@ -27,7 +27,7 @@
 }
 body {
   background-color: #000;
-  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu variable", "Ubuntu", -apple-system, "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-weight: 300;
   color: var(--text-color);
   line-height: 1.7;
@@ -124,7 +124,9 @@ img {
 }
 .skills  svg {
   color: #d80000;
+  font-size: 0.5rem;
 }
+
 /* === SERVICES SECTION ===== */
 .service-card {
   display: flex;
@@ -200,7 +202,6 @@ img {
 form input,
 textarea {
   padding: 0.5rem;
-  font-family: "Poppins", sans-serif;
   background: transparent;
   border: 1px solid var(--text-color);
   color: var(--text-color);
@@ -278,7 +279,6 @@ img.scroll-top {
     flex-direction: column;
     gap: 2rem;
     z-index: 10;
-    /* display: none; */
     perspective: 400px;
     transition: all 0.5s ease-in-out;
     background: #d80000;
@@ -400,6 +400,9 @@ img.scroll-top {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  section .hero-image {
+    width: 90%;
   }
 
   /* ===== ABOUT SECTION ======== */

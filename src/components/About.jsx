@@ -2,10 +2,9 @@ import React from "react";
 import AboutImage from "./../assets/about-img.jpg";
 import resume from "./../assets/CV.pdf";
 import { FaCircle } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { TypeWriter } from "react-typewritter";
-import { Fade, Flip, Zoom } from "react-reveal";
+import { Zoom } from "react-reveal";
 
 const About = () => {
   return (
@@ -24,18 +23,14 @@ const About = () => {
             </h5>
             <h2>About Me</h2>
             <p>
-              My name is Manasseh Walshak Yakubu, A Frontend Developer and
-              Creative Graphic Designer in Nigeria. I'm passionate and dedicated
-              to creativity, adaptability, and a passion for continuous
-              learning. With exceptional problem-solving abilities and effective
-              communication skills, I thrive in fast-paced environments. My
-              strong analytical skills allow me to identify opportunities for
-              improvement and implement innovative solutions. I am highly
-              adaptable and embrace change, always seeking new challenges to
-              further develop my skill set. Overall, my combination of
-              creativity, adaptability, and strong work ethic make me a valuable
-              asset in front-end development, capable of driving success and
-              achieving goals.
+              Manasseh Walshak a passionate and dedicated Frontend Developer and
+              Creative Graphic Designer in Nigeria. With a strong work ethic and
+              exceptional problem-solving abilities, I thrive in fast-paced
+              environments. I'm highly adaptable, embracing change and always
+              seeking new challenges to further develop my skills set. My
+              combination of creativity, adaptability, and strong analytical
+              skills makes me a valuable asset in front-end development, and a
+              driving success in achieving goals.
             </p>
           </article>
           <article className="pt-6">
@@ -85,7 +80,7 @@ const About = () => {
               </ul>
             </div>
           </article>
-          <article className="flex gap-6 items-center pt-6">
+          <article className="flex gap-6 items-center pt-10">
             <a
               href={resume}
               className="btn btn-primary download-btn"
@@ -93,9 +88,9 @@ const About = () => {
             >
               Download CV <MdOutlineFileDownload className="text-2xl" />
             </a>
-            <Link to={"#contact"} type="button" className="btn btn-dark">
+            <a href={"#contact"} type="button" className="btn btn-dark">
               Hire me
-            </Link>
+            </a>
           </article>
         </section>
       </main>
