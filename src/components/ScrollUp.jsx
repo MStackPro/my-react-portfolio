@@ -1,5 +1,5 @@
 import React from "react";
-import Arrow from '/src/assets/arrow-up.png'
+import Arrow from '../assets/arrow-up.png'
 import ScrollToTop from 'scroll-to-top-react';
 
 const ScrollUp = () => {

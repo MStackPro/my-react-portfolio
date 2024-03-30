@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { RiMenuFill } from "react-icons/ri";
 import { IoMdClose } from "react-icons/io";
 import { MdOutlineFileDownload } from "react-icons/md";
-import Logo from "/src/assets/logo.jpg";
+import Logo from "../assets/logo.jpg";
 import resume from "./../assets/CV.pdf";
 
 const Navbar = () => {
