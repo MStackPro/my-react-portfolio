@@ -16,7 +16,7 @@ const About = () => {
           </div>
         </div>
         <section>
-          <article>
+          <div>
             <h5>
               <TypeWriter
                 elementType="text"
@@ -36,7 +36,7 @@ const About = () => {
               skills makes me a valuable asset in front-end development, and a
               driving success in achieving goals.
             </p>
-          </article>
+          </div>
           <article className="pt-6">
             <h6 className="font-semibold text-ColorPrimary">My Skills</h6>
             <div className="skills grid grid-cols-3">

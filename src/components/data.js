@@ -8,8 +8,8 @@ export const navlinks = [
 
 // ========= FRONTEND PROJECTS ======
 export const portfolio = [
-  { id: 1, image: "src/assets/kekepay.png", github: "#", demo: "#" },
-  { id: 2, image: "src/assets/CreativeAgency.png", github: "#", demo: "#" },
+  { id: 1, image: "./src/assets/kekepay.png", github: "#", demo: "#" },
+  { id: 2, image: "./src/assets/CreativeAgency.png", github: "#", demo: "#" },
 ];
 
 export const fullfrontendProjects = [
@@ -22,28 +22,28 @@ export const fullfrontendProjects = [
 
 // ======== SOCILA DESIGNS =====
 export const socialDesigns = [
-  { id: 1, image: "./src/assets/social1.jpg" },
-  { id: 2, image: "./src/assets/social2.jpg" },
-  { id: 3, image: "./src/assets/social3.png" },
-  { id: 4, image: "./src/assets/social4.png" },
-  { id: 5, image: "./src/assets/social5.png" },
-  { id: 6, image: "./src/assets/social6.png" },
-  { id: 7, image: "./src/assets/social7.png" },
-  { id: 8, image: "./src/assets/social8.PNG" },
-  { id: 9, image: "./src/assets/social9.PNG" },
-  { id: 10, image: "./src/assets/social10.png" },
-  { id: 11, image: "./src/assets/social11.png" },
-  { id: 12, image: "./src/assets/social12.png" },
-  { id: 13, image: "./src/assets/social13.png" },
-  { id: 14, image: "./src/assets/social14.PNG" },
-  { id: 15, image: "./src/assets/social15.PNG" },
-  { id: 16, image: "./src/assets/social16.PNG" },
-  { id: 17, image: "./src/assets/social17.PNG" },
-  { id: 18, image: "./src/assets/social18.PNG" },
-  { id: 19, image: "./src/assets/social19.JPG" },
-  { id: 20, image: "./src/assets/social20.PNG" },
-  { id: 21, image: "./src/assets/social21.PNG" },
-  { id: 22, image: "./src/assets/social22.png" },
+  { id: 1, image: "src/assets/social1.jpg" },
+  { id: 2, image: "src/assets/social2.jpg" },
+  { id: 3, image: "src/assets/social3.png" },
+  { id: 4, image: "src/assets/social4.png" },
+  { id: 5, image: "src/assets/social5.png" },
+  { id: 6, image: "src/assets/social6.png" },
+  { id: 7, image: "src/assets/social7.png" },
+  { id: 8, image: "src/assets/social8.PNG" },
+  { id: 9, image: "src/assets/social9.PNG" },
+  { id: 10, image: "src/assets/social10.png" },
+  { id: 11, image: "src/assets/social11.png" },
+  { id: 12, image: "src/assets/social12.png" },
+  { id: 13, image: "src/assets/social13.png" },
+  { id: 14, image: "src/assets/social14.PNG" },
+  { id: 15, image: "src/assets/social15.PNG" },
+  { id: 16, image: "src/assets/social16.PNG" },
+  { id: 17, image: "src/assets/social17.PNG" },
+  { id: 18, image: "src/assets/social18.PNG" },
+  { id: 19, image: "src/assets/social19.JPG" },
+  { id: 20, image: "src/assets/social20.PNG" },
+  { id: 21, image: "src/assets/social21.PNG" },
+  { id: 22, image: "src/assets/social22.png" },
 ];
 
 // ========= LOGOS
