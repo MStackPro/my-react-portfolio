@@ -13,7 +13,7 @@ const TestimonialTemplate = ({ image, testimony, name, job }) => {
             <small>{job}</small>
           </div>
           <div className="testimonial-body bg-CardBg p-8 mt-12 relative cursor-pointer">
-            <p>{testimony}</p>
+            <p className='text-colorWhite'>{testimony}</p>
           </div>
         </article>
       </section>

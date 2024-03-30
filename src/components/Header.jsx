@@ -12,8 +12,8 @@ import { Zoom } from "react-reveal";
 const Header = () => {
   return (
     <Zoom>
-      <header className="container relative">
-      <section className="hero grid grid-cols-2 place-items-center h-screen ">
+      <header className="bg-colorWhite">
+      <section className="container relative hero grid grid-cols-2 place-items-center h-screen ">
         <article className="flex flex-col gap-2 pt-16">
           <h5>Hello! I'm</h5>
           <div className="name">
@@ -79,9 +79,10 @@ const Header = () => {
             </Link>
           </div>
         </article>
-        <aside className="hero-image w-3/4">
-          <img src={HeroImage} alt="hero picture" />
-        </aside>
+        
+          <aside className="hero-image-portrait mt-20">
+            <img src={HeroImage} alt="about image" className="hero" />
+          </aside>
       </section>
     </header>
     </Zoom>

@@ -11,12 +11,14 @@ import { TypeWriter } from "react-typewritter";
 const Contact = () => {
   return (
     <Zoom>
-      <main className="main bg-CardBg py-20" id="contact">
+      <main className="main py-20" id="contact">
         <section className="grid grid-cols-2 gap-32 container contact-container">
           <article className="flex flex-col items-center">
             <h2>Let's Talk</h2>
             <p className="text-center">
-              <TypeWriter elementType="text" text="Have a question or want to hire me? I'm here to help. Feel free to reach out via social media handles or directly via email. Thank you!"/>
+              <TypeWriter elementType="text" text="Have a question or want to hire me? I'm here to help. Feel free to reach out via social media handles or directly via email. Thank you!" 
+              interval={50}
+              delay={20}/>
             </p>
 
             <div className="pt-4 flex items-center gap-6 mt-4">

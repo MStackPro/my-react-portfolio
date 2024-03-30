@@ -9,8 +9,12 @@ import { Zoom } from "react-reveal";
 const About = () => {
   return (
     <Zoom>
-      <main className="container grid grid-cols-2 about-section" id="about">
-        <img src={AboutImage} alt="about image" className="about-image w-3/4" />
+      <main className="container about-section py-14" id="about">
+        <div className="about-me-portrait">
+          <div className="about-portrait">
+            <img src={AboutImage} alt="about" className="about-image" />
+          </div>
+        </div>
         <section>
           <article>
             <h5>

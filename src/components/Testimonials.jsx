@@ -15,7 +15,7 @@ import { TypeWriter } from "react-typewritter";
 
 const Testimonials = () => {
   return (
-    <main className="my-12">
+    <main className="py-12 bg-colorWhite">
       <section className=" container text-center">
         <h2>Testimonies</h2>
         <h5>
