@@ -5,7 +5,7 @@ const Branding = () => {
   const IMGLength = 24;
   const imaginativeBranding = [];
   for (let i = 1; i <= IMGLength; i++) {
-    imaginativeBranding.push(`src/assets/IMG-brand/imaginative${i}.jpg`);
+    imaginativeBranding.push(`sr/assets/IMG-brand/imaginative${i}.jpg`);
   }
 
   const mstackLength = 21;
