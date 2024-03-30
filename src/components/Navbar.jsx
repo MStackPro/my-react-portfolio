@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { navlinks } from "./data";
 import { Link } from "react-router-dom";
 import { RiMenuFill } from "react-icons/ri";
@@ -9,9 +9,24 @@ import resume from "./../assets/CV.pdf";
 
 const Navbar = () => {
   const [navShowing, setNavShowing] = useState(false);
+
+  const menuRef = useRef();
+
+  useEffect(() => {
+    const handler = (e) => {
+      if(!menuRef.current.contains(e.target)){
+      setNavShowing(false);
+      }
+    };
+    document.addEventListener('mousedown', handler);
+
+    return () => {
+      document.removeEventListener('mousedown', handler);
+    }
+  })
   return (
     <nav className="h-20 grid place-items-center w-screen fixed z-20 bg-white shadow-lg">
-      <div className="container flex items-center justify-between">
+      <div className="container flex items-center justify-between" ref={menuRef}>
         {/* ==== NAV LOGO ==== */}
         <div className="overflow-hidden rounded-full">
           <Link to={"/"}>
