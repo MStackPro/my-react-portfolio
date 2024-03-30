@@ -55,6 +55,7 @@ export const logoDesigns = [
   { id: 5, image: "src/assets/logo5.jpg" },
   { id: 6, image: "src/assets/logo6.JPG" },
   { id: 7, image: "src/assets/logo7.JPG" },
+  { id: 8, image: "src/assets/logo8.PNG" },
 ];
 
 // ========== TESTIMONIALS ==========
