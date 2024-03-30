@@ -8,8 +8,8 @@ export const navlinks = [
 
 // ========= FRONTEND PROJECTS ======
 export const portfolio = [
-  { id: 1, image: "./src/assets/kekepay.png", github: "#", demo: "#" },
-  { id: 2, image: "./src/assets/CreativeAgency.png", github: "#", demo: "#" },
+  { id: 1, image: "src/assets/kekepay.png", github: "#", demo: "#" },
+  { id: 2, image: "src/assets/CreativeAgency.png", github: "#", demo: "#" },
 ];
 
 export const fullfrontendProjects = [
