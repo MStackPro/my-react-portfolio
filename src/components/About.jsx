@@ -38,7 +38,7 @@ const About = () => {
             </p>
           </div>
           <article className="pt-6">
-            <h6 className="font-semibold text-ColorPrimary">My Skills</h6>
+            <h6 className="font-semibold text-ColorDark">My Skills</h6>
             <div className="skills grid grid-cols-3">
               <ul>
                 <li>
