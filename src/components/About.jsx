@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImage from "./../assets/about-img.jpg";
+import AboutImage from "../assets/about-img.jpg";
 import resume from "./../assets/CV.pdf";
 import { FaCircle } from "react-icons/fa";
 import { MdOutlineFileDownload } from "react-icons/md";

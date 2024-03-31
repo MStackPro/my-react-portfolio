@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "./../assets/me.jpg";
+import HeroImage from "../assets/me.jpg";
 import { Link } from "react-router-dom";
 import { LuGithub } from "react-icons/lu";
 import { FaXTwitter } from "react-icons/fa6";
