@@ -39,7 +39,7 @@ const Header = () => {
               to={"https://www.github.com/MStackPro"}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-2xl transition-all duration-500 ease-in-out hover:text-ColorPrimary"
+              className="text-2xl transition-all duration-500 ease-in-out"
             >
               <LuGithub />
             </Link>
@@ -47,7 +47,7 @@ const Header = () => {
               to={"https://www.twitter.com/walshak_m"}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-2xl transition-all duration-500 ease-in-out hover:text-ColorPrimary"
+              className="text-2xl transition-all duration-500 ease-in-out"
             >
               <FaXTwitter />
             </Link>
@@ -57,7 +57,7 @@ const Header = () => {
               }
               target="_blank"
               rel="noopener noreferrer"
-              className="text-2xl transition-all duration-500 ease-in-out hover:text-ColorPrimary"
+              className="text-2xl transition-all duration-500 ease-in-out"
             >
               <RiLinkedinBoxLine />
             </Link>
@@ -65,7 +65,7 @@ const Header = () => {
               to={"https://www.instagram.com/manasseh_walshak"}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-2xl transition-all duration-500 ease-in-out hover:text-ColorPrimary"
+              className="text-2xl transition-all duration-500 ease-in-out"
             >
               <FaInstagram />
             </Link>
@@ -73,7 +73,7 @@ const Header = () => {
               to={"https://www.behance.net/walshakmanasseh"}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-2xl transition-all duration-500 ease-in-out hover:text-ColorPrimary"
+              className="text-2xl transition-all duration-500 ease-in-out"
             >
               <FaBehance />
             </Link>

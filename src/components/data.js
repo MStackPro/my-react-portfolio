@@ -15,8 +15,8 @@ export const portfolio = [
 export const fullfrontendProjects = [
   { id: 1, image: require("../assets/kekepay.png"), github: "#", demo: "#" },
   { id: 2, image: require("../assets/CreativeAgency.png"), github: "#", demo: "#" },
-  { id: 3, image: require("../assets/manage.jpg"), github: "#", demo: "#" },
-  { id: 4, image: require("../assets/Zenith.png"), github: "#", demo: "#" },
+  { id: 3, image: require("../assets/manage.jpg"), github: "https://github.com/MStackPro/Manage-Landing-page", demo: "https://manage-landing-page-gilt-five.vercel.app/" },
+  { id: 4, image: require("../assets/Zenith.png"), github: "https://github.com/MStackPro/Zenith-Agro", demo: "https://zenith-agro.vercel.app/" },
   { id: 5, image: require("../assets/NFT.png"), github: "#", demo: "#" },
 ];
 

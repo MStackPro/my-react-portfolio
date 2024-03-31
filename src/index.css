@@ -27,9 +27,7 @@
 }
 body {
   background: var(--color-light);
-  font-family: "Ubuntu variable", "Ubuntu", -apple-system, "Segoe UI", "Roboto",
-    "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Ubuntu";
   font-weight: 300;
   line-height: 1.7;
 }
@@ -131,7 +129,12 @@ img {
 .hero-image-portrait:hover {
   transform: rotate(0deg);
 }
-
+.hero .social-link svg {
+  color: var(--text-color);
+}
+.hero .social-link svg:hover {
+  color: var(--color-primary);
+}
 /* ==== ABOUT SECTION ====== */
 .about-section {
   display: grid;
