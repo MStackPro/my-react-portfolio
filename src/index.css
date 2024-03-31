@@ -168,7 +168,7 @@ img {
   color: #000;
 }
 .skills svg {
-  color: #d80000;
+  color: var(--text-color);
   font-size: 0.5rem;
 }
 
@@ -211,13 +211,15 @@ img {
   transform: translateY(calc(-100% + 18rem));
 }
 .btn-portfolio {
-  background: var(--text-color);
+  background: transparent;
+  border: 1px solid var(--color-primary);
   color: var(--color-primary);
   font-weight: 500;
 }
 .btn-portfolio:hover {
-  border: 1px solid var(--color-primary);
+  border: 1px solid var(--text-color);
   background: transparent;
+  color: var(--text-color);
 }
 
 /* ===== TESTIMONY ========= */

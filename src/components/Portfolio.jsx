@@ -1,9 +1,9 @@
 import React from "react";
-import { portfolio } from "./data";
 import PortfolioTemplate from "../template/PortfolioTemplate";
 import { Link } from "react-router-dom";
 import { TypeWriter } from "react-typewritter";
 import { Zoom } from "react-reveal";
+import { portfolio } from "./data";
 
 const Portfolio = () => {
   return (
