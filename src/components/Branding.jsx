@@ -5,25 +5,25 @@ const Branding = () => {
   const IMGLength = 24;
   const imaginativeBranding = [];
   for (let i = 1; i <= IMGLength; i++) {
-    imaginativeBranding.push(`sr/assets/IMG-brand/imaginative${i}.jpg`);
+    imaginativeBranding.push(require(`../assets/IMG-brand/imaginative${i}.jpg`));
   }
 
   const mstackLength = 21;
   const mstackBranding = [];
   for (let i = 1; i <= mstackLength; i++) {
-    mstackBranding.push(`src/assets/Mstack/m${i}.JPG`);
+    mstackBranding.push(require(`../assets/Mstack/m${i}.JPG`));
   }
 
   const ktLength = 15;
   const kaysBranding = [];
   for (let i = 1; i <= ktLength; i++) {
-    kaysBranding.push(`src/assets/KT/k${i}.PNG`);
+    kaysBranding.push(require(`../assets/KT/k${i}.PNG`));
   }
 
   const kveLength = 24;
   const kveBranding = [];
   for (let i = 1; i <= kveLength; i++) {
-    kveBranding.push(`src/assets/KVE/kve${i}.PNG`);
+    kveBranding.push(require(`../assets/KVE/kve${i}.PNG`));
   }
   return (
     <section>
