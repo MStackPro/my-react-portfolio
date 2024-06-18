@@ -27,9 +27,7 @@
 }
 body {
   background: var(--color-light);
-  font-family: "Ubuntu variable", "Ubuntu", -apple-system, "Segoe UI", "Roboto",
-    "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Ubuntu";
   font-weight: 300;
   line-height: 1.7;
 }
@@ -131,7 +129,12 @@ img {
 .hero-image-portrait:hover {
   transform: rotate(0deg);
 }
-
+.hero .social-link svg {
+  color: var(--text-color);
+}
+.hero .social-link svg:hover {
+  color: var(--color-primary);
+}
 /* ==== ABOUT SECTION ====== */
 .about-section {
   display: grid;
@@ -168,7 +171,7 @@ img {
   color: #000;
 }
 .skills svg {
-  color: #d80000;
+  color: var(--text-color);
   font-size: 0.5rem;
 }
 
@@ -211,13 +214,15 @@ img {
   transform: translateY(calc(-100% + 18rem));
 }
 .btn-portfolio {
-  background: var(--text-color);
+  background: transparent;
+  border: 1px solid var(--color-primary);
   color: var(--color-primary);
   font-weight: 500;
 }
 .btn-portfolio:hover {
-  border: 1px solid var(--color-primary);
+  border: 1px solid var(--text-color);
   background: transparent;
+  color: var(--text-color);
 }
 
 /* ===== TESTIMONY ========= */
@@ -336,7 +341,7 @@ img.scroll-top {
     transition: all 0.5s ease-in-out;
     background: var(--text-color);
     padding: 1.5rem 0;
-    transform-origin: right;
+    transform: right;
     animation: animateNavItems 500ms;
     box-shadow: 3px 4px 6px rgba(207, 11, 11, 0.1), 0 1px 3px rgba(197, 12, 12, 0.88);
   }

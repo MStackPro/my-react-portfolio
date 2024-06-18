@@ -44,7 +44,7 @@ const Services = () => {
 
             <article className="service-card">
               <MdDesignServices className="text-ColorPrimary text-5xl" />
-              <h5 className="text-white">Logo Design</h5>
+              <h5 className="text-white">Product Packaging</h5>
               <p class="content">
                 I speacialize in creating logos that not only stand out but also
                 resonate with your target audience. Each logo i design is

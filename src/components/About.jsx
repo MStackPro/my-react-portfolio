@@ -1,5 +1,6 @@
+
 import React from "react";
-import AboutImage from "./../assets/about-img.jpg";
+import AboutImage from "../assets/about-img.jpg";
 import resume from "./../assets/CV.pdf";
 import { FaCircle } from "react-icons/fa";
 import { MdOutlineFileDownload } from "react-icons/md";
@@ -38,7 +39,7 @@ const About = () => {
             </p>
           </div>
           <article className="pt-6">
-            <h6 className="font-semibold text-ColorPrimary">My Skills</h6>
+            <h6 className="font-semibold text-ColorDark">My Skills</h6>
             <div className="skills grid grid-cols-3">
               <ul>
                 <li>
