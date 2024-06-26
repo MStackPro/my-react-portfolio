@@ -10,7 +10,7 @@ const FullPortfolio = () => {
       <section className='text-center'>
         <h2 className='text-center text-ColorDark leading-6'>Click the Behance link below to view my Graphic Design projects.</h2>
         
-        <Link to={"https://www.behance.net/naszmanasseh"} className="btn btn-primary mt-12 mx-auto ">
+        <Link to={"https://www.behance.net/walshakmanasseh"} className="btn btn-primary mt-12 mx-auto ">
             View Projects
           </Link>
       </section>

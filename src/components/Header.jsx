@@ -70,7 +70,7 @@ const Header = () => {
               <FaInstagram />
             </Link>
             <Link
-              to={"https://www.behance.net/naszmanasseh"}
+              to={"https://www.behance.net/walshakmanasseh"}
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl transition-all duration-500 ease-in-out"
